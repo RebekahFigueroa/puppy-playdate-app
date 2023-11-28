@@ -1,6 +1,7 @@
 import { AppBar, Stack, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import HomeButton from "./HomeButton";
+import LoginFields from "./LoginFields";
 
 const NavBar = () => {
   return (
@@ -18,6 +19,7 @@ const NavBar = () => {
           <NavItem to="/modify-household" label="Modify Household" />
           <NavItem to="/modify-budget-item" label="Modify Budget Item" /> */}
         </Stack>
+        <LoginFields />
       </Toolbar>
     </AppBar>
   );

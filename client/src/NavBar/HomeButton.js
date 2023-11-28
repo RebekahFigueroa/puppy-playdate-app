@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const HomeButton = () => {
   return (
     <NavLink
-      to="/home"
+      to="/"
       style={(isActive) => ({
         textDecoration: "none",
         color: isActive ? "#90caf9" : "inherit",

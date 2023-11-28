@@ -4,7 +4,7 @@ class CreatePlaydateDogs < ActiveRecord::Migration[6.1]
       t.references :playdate, index: true, foreign_key: true
       t.references :dog,  index: true, foreign_key: true
       t.boolean :toys
-      t.string :toy_description
+      t.string :comment
 
       t.timestamps
     end
